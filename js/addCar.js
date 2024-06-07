@@ -13,6 +13,7 @@ today = yyyy+'-'+mm+'-'+dd;
 document.getElementById("dateAvailable").setAttribute("min", today);
 document.getElementById("tillDate").setAttribute("min", today);
 
+
 function validateCar(){
 	let name= document.getElementById('carName');
 	let num = document.getElementById('carNumber');
